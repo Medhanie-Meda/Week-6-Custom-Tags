@@ -46,7 +46,7 @@ public class LoginServlet extends HttpServlet
                 User user = new User(cookieValue, null);
                 request.setAttribute("user", user);
                 if (!cookieValue.equals(""))
-                request.setAttribute("checked", "checked");
+                    request.setAttribute("checked", "checked");
             }
             
            getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);

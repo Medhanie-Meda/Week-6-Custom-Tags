@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Week_04_Lab1_MyLogin" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Week_04_Lab1_MyLogin.</description>
+<project name="Week_06_Lab_CustomTags" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Week_06_Lab_CustomTags.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 

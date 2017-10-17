@@ -1,4 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="sait" %>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,12 +9,6 @@
     </head>
     <body>
         <h1>Remember Me Login Page</h1>
-        <form action="login" method="post">
-            <p>Username: <input type="text" name="uName" value="${user.username}" /></p>
-            <p>Password: <input type="text" name="pass" /></p>
-            <p><input type="submit" value="Login"></p>
-            <p><input ${checked} type="checkbox"  name="remember"> Remember me </p>
-    </form>        
-        ${message}
+        <sait:login></sait:login>
     </body>
 </html>

@@ -7,7 +7,6 @@
     </head>
     <body>
         <h1>Home Page</h1>
-        Hello, ${user.username}
-        <a href="login?action=logout"> Log out </a>
+        Hello, ${username} <a href="login?action=logout"> Log out </a>
     </body>
 </html>
